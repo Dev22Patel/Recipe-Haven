@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\WAD\\RecipeApp\\RecipeApplication\\RecipeApplication.csproj": {}
+    "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\RecipeApplication.csproj": {}
   },
   "projects": {
-    "E:\\WAD\\RecipeApp\\RecipeApplication\\RecipeApplication.csproj": {
+    "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\RecipeApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\WAD\\RecipeApp\\RecipeApplication\\RecipeApplication.csproj",
+        "projectUniqueName": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\RecipeApplication.csproj",
         "projectName": "RecipeApplication",
-        "projectPath": "E:\\WAD\\RecipeApp\\RecipeApplication\\RecipeApplication.csproj",
-        "packagesPath": "C:\\Users\\hp5cd\\.nuget\\packages\\",
-        "outputPath": "E:\\WAD\\RecipeApp\\RecipeApplication\\obj\\",
+        "projectPath": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\RecipeApplication.csproj",
+        "packagesPath": "C:\\Users\\patel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hp5cd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\patel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

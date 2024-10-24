@@ -1,36 +1,135 @@
 ﻿@model IEnumerable<RecipeApplication.Models.Recipe>
-
 @{
     ViewData["Title"] = "Recipes";
-
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <!-- Correct path to your index.css file -->
 <link rel="stylesheet" href="~/css/index.css" />
+<!-- Add Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
-<form asp-controller="Home" asp-action="Search" method="get" class="form-inline search-form">
-    <input type="text" name="searchString" class="form-control search-input" placeholder="Search for recipes..." />
-    <button type="submit" class="btn btn-outline-success search-btn">Search</button>
-</form>
+<style>
+    /* Card Styling */
+    .recipe-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        border-radius: 12px;
+    }
 
+        .recipe-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+        }
 
-<div class="container mt-4">
+    /* Image Container */
+    .img-container {
+        height: 240px;
+        border-radius: 12px 12px 0 0;
+    }
+
+    .recipe-img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 12px 12px 0 0;
+        transition: transform 0.3s ease;
+    }
+
+    .recipe-card:hover .recipe-img {
+        transform: scale(1.05);
+    }
+
+    .img-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 50%;
+        background: linear-gradient(to top, rgba(0,0,0,0.1), transparent);
+        pointer-events: none;
+    }
+
+    /* Card Content */
+    .card-title {
+        font-size: 1.25rem;
+        color: #2d3436;
+    }
+
+    .card-text {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        line-height: 1.5;
+    }
+
+    /* Button Styling */
+    .btn-primary {
+        border: none;
+        font-weight: 500;
+        transition: all 0.3s ease;
+    }
+
+        .btn-primary:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+</style>
+<!-- Hero Section with Search -->
+<div class="bg-light py-5 mb-4">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <h1 class="display-4 text-center mb-4">Our Recipes</h1>
+                <form asp-controller="Home" asp-action="Search" method="get" class="d-flex gap-2">
+                    <input type="text"
+                           name="searchString"
+                           class="form-control form-control-lg"
+                           placeholder="Search for recipes..."
+                           aria-label="Search recipes">
+                    <button type="submit" class="btn btn-primary btn-lg px-4">
+                        Search
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Recipe Grid Section -->
+<div class="container mt-4 mb-5">
     <h2 class="text-center mb-4">All Recipes</h2>
-    <div class="row">
+    <div class="row g-4">
         @foreach (var recipe in Model)
-
         {
-            <div class="col-lg-4 col-md-6 mb-4 d-flex">
-                <div class="card shadow-sm h-100 w-100">
-                    <img class="card-img-top recipe-img" src="@recipe.ImageUrl" alt="Recipe image">
-                    <div class="card-body">
-                        <h5 class="card-title">@recipe.Title</h5>
-                        <p class="card-text text-truncate">@recipe.Description</p>
-                        <a href="@Url.Action("Detail", "Home", new { id = recipe.RecipeId })" class="btn btn-primary w-100">View Recipe</a>
+            <div class="col-lg-4 col-md-6 mb-5">
+                <div class="card h-100 border-0 recipe-card">
+                    <!-- Image Container -->
+                    <div class="img-container position-relative overflow-hidden">
+                        <img class="card-img-top recipe-img"
+                             src="@recipe.ImageUrl"
+                             alt="@recipe.Title">
+                        <div class="img-overlay"></div>
+                    </div>
+
+                    <!-- Card Content -->
+                    <div class="card-body p-4">
+                        <h5 class="card-title mb-3 fw-bold">@recipe.Title</h5>
+                        <p class="card-text text-muted mb-4">@recipe.Description</p>
+
+                       
+
+                        <!-- Button -->
+                        <a href="@Url.Action("Detail", "Home", new { id = recipe.RecipeId })"
+                           class="btn btn-primary w-100 py-2">
+                            View Recipe
+                        </a>
                     </div>
                 </div>
             </div>
         }
     </div>
 </div>
+

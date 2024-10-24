@@ -8,114 +8,244 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div class="container mt-5">
-    <div class="card mx-auto shadow-lg" style="max-width: 700px;">
+<div class="container py-8">
+    <div class="recipe-card mx-auto">
         <!-- Recipe Image -->
-        <img class="card-img-top" src="@Model.ImageUrl" alt="Recipe Image" style="max-height: 400px; object-fit: cover; border-radius: 5px 5px 0 0;">
-
-        <div class="card-body">
-            <!-- Recipe Title -->
-            <h2 class="card-title text-center text-primary mb-3" style="font-family: 'Poppins', sans-serif;">@Model.Title</h2>
-
-            <!-- Recipe Description -->
-            <p class="card-text text-muted text-justify mb-4" style="font-family: 'Roboto', sans-serif; font-size: 1.1rem;">@Model.Description</p>
-
-            <!-- Ingredients Section -->
-            <h3 class="mt-4 text-success" style="font-family: 'Poppins', sans-serif;">Ingredients</h3>
-            <ul class="list-group list-group-flush">
-                @if (Model.Ingredients != null && Model.Ingredients.Any())
-
-                {
-                    foreach (var ingredient in Model.Ingredients)
-                    {
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                            <span style="font-family: 'Roboto', sans-serif; font-size: 1.05rem;">@ingredient.Name</span>
-                            <span class="badge badge-primary">@ingredient.Quantity</span>
-                        </li>
-                    }
-
-                }
-
-                else
-
-                {
-                    <li class="list-group-item">No ingredients listed.</li>
-                }
-            </ul>
-
-            <!-- Instructions Section -->
-            <h3 class="mt-4 text-success" style="font-family: 'Poppins', sans-serif;">Instructions</h3>
-            <ol class="list-group list-group-numbered">
-                @if (Model.Instructions != null && Model.Instructions.Any())
-
-                {
-                    foreach (var instruction in Model.Instructions)
-                    {
-                        <li class="list-group-item" style="font-family: 'Roboto', sans-serif; font-size: 1.05rem;">@instruction.Description</li>
-                    }
-
-                }
-
-                else
-
-                {
-                    <li class="list-group-item">No instructions provided.</li>
-                }
-            </ol>
+        <div class="image-container">
+            <img class="recipe-image" src="@Model.ImageUrl" alt="@Model.Title">
         </div>
 
-        <!-- Back Button -->
-        <div class="card-footer text-center">
-            <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">
-                <i class="fas fa-arrow-left"></i> Back to List
-            </a>
+        <div class="content-container">
+            <!-- Recipe Title -->
+            <h1 class="recipe-title">@Model.Title</h1>
+
+            <!-- Recipe Description -->
+            <div class="recipe-description">
+                @Model.Description
+            </div>
+
+            <!-- Ingredients Section -->
+            <div class="recipe-section">
+                <h2 class="section-title">
+                    <span class="section-badge">Ingredients</span>
+                </h2>
+                <ul class="ingredients-list">
+                    @if (Model.Ingredients != null && Model.Ingredients.Any())
+                    {
+                        foreach (var ingredient in Model.Ingredients)
+                        {
+                            <li class="ingredient-item">
+                                <span class="ingredient-name">@ingredient.Name</span>
+                                <span class="ingredient-quantity">@ingredient.Quantity</span>
+                            </li>
+                        }
+                    }
+                    else
+                    {
+                        <li class="empty-message">No ingredients listed.</li>
+                    }
+                </ul>
+            </div>
+
+            <!-- Instructions Section -->
+            <div class="recipe-section">
+                <h2 class="section-title">
+                    <span class="section-badge">Instructions</span>
+                </h2>
+                <ol class="instructions-list">
+                    @if (Model.Instructions != null && Model.Instructions.Any())
+                    {
+                        foreach (var instruction in Model.Instructions)
+                        {
+                            <li class="instruction-item">
+                                <span class="instruction-number">@(Model.Instructions.ToList().IndexOf(instruction) + 1)</span>
+                                <span class="instruction-text">@instruction.Description</span>
+                            </li>
+                        }
+                    }
+                    else
+                    {
+                        <li class="empty-message">No instructions provided.</li>
+                    }
+                </ol>
+            </div>
+
+            <!-- Back Button -->
+            <div class="button-container">
+                <a href="@Url.Action("Index", "Home")" class="back-button">
+                    <i class="fas fa-arrow-left"></i>
+                    <span>Back to Recipes</span>
+                </a>
+            </div>
         </div>
     </div>
 </div>
 
-<!-- External CSS Resources -->
+<!-- External Resources -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
 
-<!-- Optional Custom CSS -->
 <style>
-    /* Customizations for the card image and borders */
-    .card-img-top {
-        border-bottom: 2px solid #f8f9fa;
-        border-radius: 5px 5px 0 0;
+    /* Main Container Styles */
+    .recipe-card {
+        max-width: 800px;
+        background: white;
+        border-radius: 16px;
+        box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+        overflow: hidden;
     }
 
-    /* Customize the list item font size */
-    .list-group-item {
-        font-size: 1.05rem;
+    /* Image Styles */
+    .image-container {
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        position: relative;
     }
 
-    /* Styling for badge */
-    .badge-primary {
-        background-color: #007bff;
-        font-size: 0.9rem;
+    .recipe-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
-    /* Styling for card footer */
-    .card-footer {
-        background-color: #f8f9fa;
-        border-top: none;
+    /* Content Container */
+    .content-container {
+        padding: 2.5rem;
     }
 
-    /* Adjustments for button */
-    .btn-secondary {
-        font-size: 0.95rem;
-        font-family: 'Roboto', sans-serif;
+    /* Typography */
+    .recipe-title {
+        font-family: 'Inter', sans-serif;
+        font-size: 2.25rem;
+        font-weight: 600;
+        color: #1a1a1a;
+        margin-bottom: 1.5rem;
     }
 
-    /* Font styles for headings and content */
-    h2, h3 {
-        font-family: 'Poppins', sans-serif;
+    .recipe-description {
+        font-family: 'Inter', sans-serif;
+        font-size: 1.125rem;
+        line-height: 1.75;
+        color: #4a5568;
+        margin-bottom: 2.5rem;
     }
 
-    p {
-        font-family: 'Roboto', sans-serif;
-        font-size: 1.1rem;
+    /* Section Styles */
+    .recipe-section {
+        margin-bottom: 2.5rem;
     }
+
+    .section-title {
+        margin-bottom: 1.5rem;
+    }
+
+    .section-badge {
+        font-family: 'Inter', sans-serif;
+        font-size: 0.875rem;
+        font-weight: 500;
+        color: #047857;
+        background-color: #ecfdf5;
+        padding: 0.5rem 1rem;
+        border-radius: 9999px;
+    }
+
+    /* Ingredients List */
+    .ingredients-list {
+        list-style: none;
+        padding: 0;
+    }
+
+    .ingredient-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.75rem 0;
+        border-bottom: 1px solid #e5e7eb;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .ingredient-name {
+        color: #374151;
+    }
+
+    .ingredient-quantity {
+        font-size: 0.875rem;
+        color: #6b7280;
+        background-color: #f3f4f6;
+        padding: 0.25rem 0.75rem;
+        border-radius: 9999px;
+    }
+
+    /* Instructions List */
+    .instructions-list {
+        list-style: none;
+        padding: 0;
+        counter-reset: instruction;
+    }
+
+    .instruction-item {
+        display: flex;
+        gap: 1.5rem;
+        margin-bottom: 1.5rem;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .instruction-number {
+        flex-shrink: 0;
+        width: 2rem;
+        height: 2rem;
+        background-color: #f3f4f6;
+        border-radius: 9999px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 500;
+        color: #4b5563;
+    }
+
+    .instruction-text {
+        color: #374151;
+        line-height: 1.75;
+        padding-top: 0.25rem;
+    }
+
+    /* Empty State */
+    .empty-message {
+        color: #6b7280;
+        font-style: italic;
+        padding: 1rem 0;
+    }
+
+    /* Button Styles */
+    .button-container {
+        margin-top: 3rem;
+        text-align: center;
+    }
+
+    .back-button {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-family: 'Inter', sans-serif;
+        font-size: 0.875rem;
+        color: #4b5563;
+        padding: 0.75rem 1.5rem;
+        border-radius: 9999px;
+        background-color: #f3f4f6;
+        text-decoration: none;
+        transition: all 0.2s ease;
+    }
+
+    .back-button:hover {
+        background-color: #e5e7eb;
+        color: #1f2937;
+        text-decoration: none;
+    }
+
+    .back-button i {
+        font-size: 0.75rem;
+    }
+
+    
 </style>

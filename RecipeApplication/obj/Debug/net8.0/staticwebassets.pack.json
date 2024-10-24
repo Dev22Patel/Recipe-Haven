@@ -1,267 +1,271 @@
 {
   "Files": [
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RecipeApplication.bundle.scp.css",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RecipeApplication.bundle.scp.css",
       "PackagePath": "staticwebassets\\RecipeApplication.bundle.scp.css"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\css\\createrecipe.css",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\css\\createrecipe.css",
       "PackagePath": "staticwebassets\\css\\createrecipe.css"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\css\\index.css",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\css\\index.css",
       "PackagePath": "staticwebassets\\css\\index.css"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\css\\myrecipes.css",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\css\\myrecipes.css",
       "PackagePath": "staticwebassets\\css\\myrecipes.css"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\images\\381a6063-4cea-4f12-8abd-dd76e6c8b55e.JPG",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\images\\381a6063-4cea-4f12-8abd-dd76e6c8b55e.JPG",
       "PackagePath": "staticwebassets\\images\\381a6063-4cea-4f12-8abd-dd76e6c8b55e.JPG"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\images\\74ab3987-b5b8-420f-8c3d-7255bc3f79e7.jpg",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\images\\74ab3987-b5b8-420f-8c3d-7255bc3f79e7.jpg",
       "PackagePath": "staticwebassets\\images\\74ab3987-b5b8-420f-8c3d-7255bc3f79e7.jpg"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\images\\ba06114c-4675-4496-9792-455f7b32f22f.jpeg",
+      "PackagePath": "staticwebassets\\images\\ba06114c-4675-4496-9792-455f7b32f22f.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "E:\\WAD\\RecipeApp\\RecipeApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\patel\\OneDrive\\Desktop\\Recipe-Haven\\RecipeApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

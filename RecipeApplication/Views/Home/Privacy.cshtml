@@ -1,52 +1,204 @@
 ﻿@{
-    ViewData["Title"] = "About";
+    ViewData["Title"] = "About Us";
 }
 
-<h1>@ViewData["Title"]</h1>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
 
-<div class="about-section">
-    <p>Welcome to our Recipe Sharing Application!</p>
-
-    <p>Our platform is dedicated to bringing food enthusiasts together from all around the world. Whether you're an aspiring home cook or an experienced chef, we offer a space where you can:</p>
-
-    <ul>
-        <li><strong>Share your unique recipes</strong>: Upload and showcase your favorite dishes, complete with ingredients, step-by-step instructions, and photos.</li>
-        <li><strong>Discover new recipes</strong>: Browse through a variety of recipes shared by users worldwide, ranging from quick meals to gourmet dishes.</li>
-        <li><strong>Connect with fellow food lovers</strong>: Comment on recipes, exchange tips, and be part of a vibrant community that loves to cook and share culinary experiences.</li>
-    </ul>
-
-    <p>Our mission is to inspire creativity in the kitchen and make recipe discovery and sharing easier and more fun. From baking the perfect cake to exploring international cuisine, there's something for everyone!</p>
-
-    <h2>Features of Our Application</h2>
-    <ul>
-        <li><strong>Recipe Search:</strong> Quickly find any recipe by entering keywords or ingredients.</li>
-        <li><strong>Recipe Upload:</strong> Easily upload your own recipes, complete with images and detailed instructions.</li>
-        <li><strong>User Profiles:</strong> Keep track of your favorite recipes, see what others are cooking, and share your culinary journey.</li>
-    </ul>
-
-    <h2>Our Vision</h2>
-    <p>We believe that cooking brings people together, and through our platform, we aim to foster a community that thrives on creativity, inclusivity, and a shared passion for good food. Our recipe-sharing app is designed to be user-friendly, making it easy for anyone, from novice cooks to seasoned chefs, to share their love of food.</p>
-
-    <p>Thank you for being a part of our community and happy cooking!</p>
-</div>
-
-<!-- Optional: Style for the about section -->
 <style>
-    .about-section {
-        max-width: 800px;
-        margin: 0 auto;
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
+    .about-container {
+        max-width: 1000px;
+        margin: 2rem auto;
+        padding: 2rem;
+        background: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
     }
-    .about-section h2 {
-        margin-top: 20px;
+
+    .page-header {
+        text-align: center;
+        margin-bottom: 3rem;
+        position: relative;
+        padding-bottom: 1rem;
+    }
+
+        .page-header:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: linear-gradient(to right, #3498db, #2ecc71);
+            border-radius: 2px;
+        }
+
+    .page-title {
         color: #2c3e50;
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
     }
-    .about-section ul {
-        list-style-type: square;
-        padding-left: 20px;
+
+    .subtitle {
+        color: #7f8c8d;
+        font-size: 1.2rem;
+        font-weight: 400;
     }
-    .about-section li {
-        margin-bottom: 10px;
+
+    .section {
+        margin-bottom: 3rem;
+        padding: 2rem;
+        background: #f8f9fa;
+        border-radius: 8px;
+        transition: transform 0.3s ease;
+    }
+
+        .section:hover {
+            transform: translateY(-5px);
+        }
+
+    .section-title {
+        color: #2c3e50;
+        font-size: 1.8rem;
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+        display: flex;
+        align-items: center;
+    }
+
+        .section-title i {
+            margin-right: 1rem;
+            color: #3498db;
+        }
+
+    .feature-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+        margin: 2rem 0;
+    }
+
+    .feature-card {
+        background: white;
+        padding: 1.5rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        transition: all 0.3s ease;
+    }
+
+        .feature-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+    .feature-icon {
+        font-size: 2rem;
+        color: #3498db;
+        margin-bottom: 1rem;
+    }
+
+    .feature-title {
+        font-size: 1.2rem;
+        color: #2c3e50;
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+    }
+
+    .text-content {
+        color: #555;
+        line-height: 1.8;
+        font-size: 1.1rem;
+    }
+
+    .vision-quote {
+        font-style: italic;
+        color: #34495e;
+        font-size: 1.2rem;
+        text-align: center;
+        margin: 2rem 0;
+        padding: 2rem;
+        border-left: 4px solid #3498db;
+        background: #f8f9fa;
     }
 </style>
+
+<div class="about-container">
+    <header class="page-header">
+        <h1 class="page-title">Welcome to Recipe Haven</h1>
+        <p class="subtitle">Where Culinary Creativity Meets Community</p>
+    </header>
+
+    <section class="section">
+        <h2 class="section-title">
+            <i class="fas fa-book-open"></i>
+            Our Story
+        </h2>
+        <div class="text-content">
+            <p>Recipe Haven was born from a simple yet powerful idea: creating a space where food enthusiasts worldwide can connect, share, and explore the diverse world of cooking. Our platform brings together home cooks and professional chefs in a vibrant community dedicated to the love of food and culinary exploration.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">
+            <i class="fas fa-lightbulb"></i>
+            What We Offer
+        </h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <i class="fas fa-share-alt feature-icon"></i>
+                <h3 class="feature-title">Recipe Sharing</h3>
+                <p>Share your culinary masterpieces with detailed instructions, photos, and personal tips that make your recipes unique.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-search feature-icon"></i>
+                <h3 class="feature-title">Recipe Discovery</h3>
+                <p>Explore an ever-growing collection of recipes from around the world, from traditional classics to modern innovations.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-users feature-icon"></i>
+                <h3 class="feature-title">Community Engagement</h3>
+                <p>Connect with fellow food lovers, exchange cooking tips, and be inspired by others' culinary journeys.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">
+            <i class="fas fa-star"></i>
+            Key Features
+        </h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <i class="fas fa-magic feature-icon"></i>
+                <h3 class="feature-title">Smart Search</h3>
+                <p>Find recipes instantly using ingredients, cuisine types, or dietary preferences.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-cloud-upload-alt feature-icon"></i>
+                <h3 class="feature-title">Easy Upload</h3>
+                <p>Share your recipes with our intuitive, user-friendly interface.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-user-circle feature-icon"></i>
+                <h3 class="feature-title">Personal Profiles</h3>
+                <p>Customize your profile, save favorites, and track your cooking adventures.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="vision-quote">
+        "We believe that every recipe shared is a story told, every meal prepared is a memory created, and every connection made is a friendship fostered through the universal language of food."
+    </div>
+
+    <section class="section">
+        <h2 class="section-title">
+            <i class="fas fa-heart"></i>
+            Our Vision
+        </h2>
+        <div class="text-content">
+            <p>At Recipe Haven, we envision a world where culinary knowledge knows no boundaries. We're committed to creating an inclusive platform that celebrates diversity in cooking, encourages creativity, and makes the joy of cooking accessible to everyone - from kitchen novices to seasoned chefs.</p>
+            <p>Join us in building a global community united by the passion for cooking and the joy of sharing great food!</p>
+        </div>
+    </section>
+</div>
