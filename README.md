@@ -2,8 +2,7 @@
 
 A modern, user-friendly web application for managing and organizing your favorite recipes. This digital cookbook allows users to create, store, edit, and share their cherished recipes in an elegant and intuitive interface. Built with ASP.NET Core MVC, the application provides a robust platform for food enthusiasts to maintain their culinary collection.
 
-![Recipe List View](https://raw.githubusercontent.com/your-username/recipe-book/main/screenshots/recipes-list.png)
-
+![Recipe List View](![Screenshot 2024-10-24 150917](https://github.com/user-attachments/assets/a1b93748-f656-4937-a20a-ba5401fa2bb4))
 ## 🌟 Features
 
 ### Core Functionality
@@ -71,20 +70,20 @@ Before running this application, ensure you have the following installed:
 
 ## 📸 Application Screenshots
 
-### Home Page
-![Home Page](https://raw.githubusercontent.com/your-username/recipe-book/main/screenshots/all-recipes.png)
-*Browse through your collection of recipes with our clean and organized interface.*
+### Manage Own Recipe
+![Post Management] (![Screenshot 2024-10-24 150937](https://github.com/user-attachments/assets/86f69e82-c5e9-419c-8956-3185ab272813))
+*Manage Created Receipe*
 
 ### Add Recipe
-![Add Recipe](https://raw.githubusercontent.com/your-username/recipe-book/main/screenshots/add-recipe.png)
+![Add Recipe](![Screenshot 2024-10-24 150854](https://github.com/user-attachments/assets/ff8f5574-25b2-4130-acca-8665af2b1faf))
 *Create new recipes with our intuitive form interface.*
 
 ### Edit Recipe
-![Edit Recipe](https://raw.githubusercontent.com/your-username/recipe-book/main/screenshots/edit-recipe.png)
+![Edit Recipe](![Screenshot 2024-10-24 150950](https://github.com/user-attachments/assets/9229894b-4a1f-491e-bbcd-99b1dbe5232c))
 *Easily modify your recipes with our user-friendly edit interface.*
 
 ### Delete Confirmation
-![Delete Recipe](https://raw.githubusercontent.com/your-username/recipe-book/main/screenshots/delete-recipe.png)
+![Delete Recipe](![Screenshot 2024-10-24 151012](https://github.com/user-attachments/assets/781f7df3-7220-4c2d-aff6-789de1e772cc))
 *Safe deletion with confirmation dialog to prevent accidental removals.*
 
 ## 🤝 Contributing
@@ -95,13 +94,9 @@ Before running this application, ensure you have the following installed:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
 ## 👥 Authors
 
-* **Dev Patel** - *Initial work* - [YourGitHub](https://github.com/yourusername)
+* **Dev Patel** - **Utsav Patel** *
 
 ## 📞 Contact
 
