@@ -2,7 +2,7 @@
 
 A modern, user-friendly web application for managing and organizing your favorite recipes. This digital cookbook allows users to create, store, edit, and share their cherished recipes in an elegant and intuitive interface. Built with ASP.NET Core MVC, the application provides a robust platform for food enthusiasts to maintain their culinary collection.
 
-![Recipe List View](![Screenshot 2024-10-24 150917](https://github.com/user-attachments/assets/a1b93748-f656-4937-a20a-ba5401fa2bb4))
+![Recipe List View]![Screenshot 2024-10-24 150917](https://github.com/user-attachments/assets/a1b93748-f656-4937-a20a-ba5401fa2bb4)
 ## 🌟 Features
 
 ### Core Functionality
@@ -35,13 +35,11 @@ A modern, user-friendly web application for managing and organizing your favorit
 - **Frontend Technologies**
   - Bootstrap 5.0
   - HTML5
-  - CSS3
   - JavaScript
 
 - **Development Tools**
   - Visual Studio 2022
   - Git for version control
-  - Azure for deployment (optional)
 
 ## ⚙️ Prerequisites
 
@@ -71,19 +69,19 @@ Before running this application, ensure you have the following installed:
 ## 📸 Application Screenshots
 
 ### Manage Own Recipe
-![Post Management] (![Screenshot 2024-10-24 150937](https://github.com/user-attachments/assets/86f69e82-c5e9-419c-8956-3185ab272813))
+![Post Management] ![Screenshot 2024-10-24 150937](https://github.com/user-attachments/assets/86f69e82-c5e9-419c-8956-3185ab272813)
 *Manage Created Receipe*
 
 ### Add Recipe
-![Add Recipe](![Screenshot 2024-10-24 150854](https://github.com/user-attachments/assets/ff8f5574-25b2-4130-acca-8665af2b1faf))
+![Add Recipe]![Screenshot 2024-10-24 150854](https://github.com/user-attachments/assets/ff8f5574-25b2-4130-acca-8665af2b1faf)
 *Create new recipes with our intuitive form interface.*
 
 ### Edit Recipe
-![Edit Recipe](![Screenshot 2024-10-24 150950](https://github.com/user-attachments/assets/9229894b-4a1f-491e-bbcd-99b1dbe5232c))
+![Edit Recipe]![Screenshot 2024-10-24 150950](https://github.com/user-attachments/assets/9229894b-4a1f-491e-bbcd-99b1dbe5232c)
 *Easily modify your recipes with our user-friendly edit interface.*
 
 ### Delete Confirmation
-![Delete Recipe](![Screenshot 2024-10-24 151012](https://github.com/user-attachments/assets/781f7df3-7220-4c2d-aff6-789de1e772cc))
+![Delete Recipe]![Screenshot 2024-10-24 151012](https://github.com/user-attachments/assets/781f7df3-7220-4c2d-aff6-789de1e772cc)
 *Safe deletion with confirmation dialog to prevent accidental removals.*
 
 ## 🤝 Contributing
