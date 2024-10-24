@@ -57,7 +57,6 @@ Before running this application, ensure you have the following installed:
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/your-username/recipe-book.git
-   cd recipe-book
    ```
 
 2. **Update Database Connection**
@@ -66,12 +65,8 @@ Before running this application, ensure you have the following installed:
 
 3. **Apply Database Migrations**
    ```bash
-   dotnet ef database update
-   ```
-
-4. **Run the Application**
-   ```bash
-   dotnet run
+   add-migration InitialCreate
+   update-database
    ```
 
 ## 📸 Application Screenshots
@@ -106,14 +101,9 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## 👥 Authors
 
-* **Your Name** - *Initial work* - [YourGitHub](https://github.com/yourusername)
+* **Dev Patel** - *Initial work* - [YourGitHub](https://github.com/yourusername)
 
-## 🙏 Acknowledgments
+## 📞 Contact
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
-## 📞 Support
-
-For support, email your-email@example.com or create an issue in this repository.
+DevPatel   - notrealdev2211@gmail.com
+UtsavPatel - 2004patelutsav@gmail.com
